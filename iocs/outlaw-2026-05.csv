@@ -1,0 +1,22 @@
+type,value,context,family,first_seen,reference
+sha256,e3177a205114b0645b340d5537feec0137b6d71cece0430f1c2453e826eb1777,TAR archive (dota3.tar.gz) - full Outlaw kit,Outlaw,2026-05-17,https://bazaar.abuse.ch/sample/e3177a205114b0645b340d5537feec0137b6d71cece0430f1c2453e826eb1777/
+sha256,94d45a4da52d0b4593387673b8579892c866b19d71408dde550800050a3d65b8,SSH brute-forcer (kthreadadd64),Outlaw,2026-05-17,https://bazaar.abuse.ch/sample/94d45a4da52d0b4593387673b8579892c866b19d71408dde550800050a3d65b8/
+sha256,289abf2d87fb23983de053535a7e2946a90865c2d96f80f94f491e28c388fb1f,SSH brute-forcer 32-bit (kthreadadd32),Outlaw,2026-05-17,https://bazaar.abuse.ch/sample/289abf2d87fb23983de053535a7e2946a90865c2d96f80f94f491e28c388fb1f/
+sha256,a01e58ce02a7b7fe9e5368878d30ce576d958069b30e952ff68686e2264b3292,XMRig miner (kswapd00),Outlaw,2026-05-17,https://bazaar.abuse.ch/sample/a01e58ce02a7b7fe9e5368878d30ce576d958069b30e952ff68686e2264b3292/
+sha256,c9d9583fb44131fe57df0c99c74e460973dd9c1f38ac57a7c3c8238be1e350eb,XMRig miner UPX-unpacked,Outlaw,2026-05-17,
+sha256,deac427e9b81607843c1e145103be8fd16960e533d2a8c0c003d7e094047923b,SSH brute-forcer 64-bit UPX-unpacked,Outlaw,2026-05-17,
+sha256,192604729aada8ede20a961fb125e2acb62f692413177754baf7068a3e654412,SSH brute-forcer 32-bit UPX-unpacked,Outlaw,2026-05-17,
+ip:port,179.43.139.83:443,IRC C2 channel #001 (also mining pool on :80),Outlaw,2026-05-17,https://threatfox.abuse.ch/ioc/?search=179.43.139.83
+ip:port,209.99.186.7:443,IRC C2 channel #009,Outlaw,2026-05-17,https://threatfox.abuse.ch/ioc/?search=209.99.186.7
+ip:port,179.43.139.83:80,Mining pool (same IP as IRC C2),Outlaw,2026-05-17,
+ip:port,179.43.139.85:442,Mining pool secondary,Outlaw,2026-05-17,
+ip:port,179.43.180.84:80,Mining pool (hex obfuscated 0xB32BB454),Outlaw,2026-05-17,
+subnet,179.43.139.0/29,Dedicated Outlaw infrastructure cluster,Outlaw,2026-05-17,
+wallet,483fmPjXwX75xmkaJ3dm4vVGWZLHn3GDuKycHypVLr9SgiT6oaZgVh26iZRpwKEkTZCAmUS8tykuwUorM3zGtWxPBFqwuxS,Monero wallet hardcoded in XMRig binary,Outlaw,2026-05-17,
+filename,~/.rsync/,Main payload directory,Outlaw,2026-05-17,
+filename,~/.configrc7/,Persistence marker directory,Outlaw,2026-05-17,
+process,kswapd00,XMRig miner impersonating kernel thread,Outlaw,2026-05-17,
+process,kthreadadd,SSH brute-forcer impersonating kernel thread,Outlaw,2026-05-17,
+ssh-key-tag,mdrfckr,SSH authorized_keys signature (chattr +ia),Outlaw,2026-05-17,
+irc-nick,molly,Bot admin handle,Outlaw,2026-05-17,
+irc-nick,polly,Bot admin handle,Outlaw,2026-05-17,
